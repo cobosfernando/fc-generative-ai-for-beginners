@@ -1,6 +1,9 @@
+#conda env create -f ./environment.yaml  
 name:  fc-gen-ai-beginners
-channels:  
- - defaults
+channels:
+  - conda-forge
+  - microsoft
+  - defaults
 dependencies:  
 - ipywidgets==7.7.1
 - matplotlib==3.7.0
